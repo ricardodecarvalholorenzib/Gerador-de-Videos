@@ -1,33 +1,71 @@
-# 💡 Generator of Video Ideas / Gerador de Ideias de Vídeos
+# 🎬 Gerador de Ideias de Vídeos
 
-> Um gerador interativo via terminal que sugere ideias de conteúdo para vídeos longos e curtos, com suporte multi-idioma (Português BR e Inglês).
+Gerador interativo de ideias para vídeos, executado diretamente no terminal.
 
----
-
-## 📌 Sobre o Projeto
-
-Este projeto foi criado para resolver o famoso "bloqueio criativo" de criadores de conteúdo. Ele sorteia aleatoriamente ideias de temas para produção de vídeos, categorizados entre formatos **longos** (ex: YouTube) e **curtos** (ex: TikTok, Reels, Shorts).
-
----
+O programa sorteia sugestões para **vídeos longos** e **vídeos curtos** e possui interface em português do Brasil e inglês.
 
 ## ✨ Funcionalidades
 
-* 🌐 **Suporte Multi-idioma:** Interface e banco de dados em Português (pt-BR) e Inglês (en-US).
-* 🎬 **Formatos Variados:**
-  * **Vídeos Longos:** Vlogs, tutoriais, podcasts, gameplays, documentários.
-  * **Vídeos Curtos:** GRWM, POVs cômicos, desafios DIY, dicas rápidas, dublagens.
-* 🎲 **Seleção Aleatória:** Utilização da biblioteca nativa `random` para garantir sugestões imprevisíveis a cada execução.
+- 🌐 Português (pt-BR) e inglês (en-US)
+- 🎬 Sugestões para vídeos longos
+- 📱 Sugestões para vídeos curtos
+- 🎲 Escolha aleatória das ideias
+- 🖥️ Execução pelo terminal
 
----
+## 🛠️ Tecnologias
 
-## 🛠️ Tecnologias Utilizadas
+- Python 3
+- `random` — biblioteca padrão do Python
 
-* **[Python 3.x](https://www.python.org/)** — Linguagem base
-* **`random`** — Módulo nativo para sorteio das ideias
+Não são utilizadas dependências externas.
 
----
+## ▶️ Como executar
 
-## 🚀 Como Executar
+### 1. Tenha o Python instalado
 
-Não é necessária nenhuma instalação de dependência externa!
-Somente copie o código e teste em seu editor de código
+Instale o **Python 3** na sua máquina.
+
+### 2. Clone o repositório
+
+```bash
+git clone https://github.com/ricardodecarvalholorenzib/Gerador-de-Videos.git
+cd Gerador-de-Videos
+```
+
+### 3. Execute o programa
+
+```bash
+python gerador-de-video.py
+```
+
+No Windows, caso `python` não funcione, tente:
+
+```bash
+py gerador-de-video.py
+```
+
+## 🎮 Como usar
+
+Ao iniciar, escolha o idioma:
+
+- `01` — Português BR
+- `02` — English
+
+Depois escolha o tipo de vídeo:
+
+- `01` — Vídeos longos
+- `02` — Vídeos curtos
+- `03` — Sair
+
+## 📁 Estrutura
+
+```text
+Gerador-de-Videos/
+├── gerador-de-video.py
+├── README.md
+└── .gitignore
+```
+
+## 📌 Status
+
+Projeto simples desenvolvido para praticar Python, entrada de dados, estruturas condicionais, loops e uso de módulos da biblioteca padrão.
